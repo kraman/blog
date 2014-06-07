@@ -1,0 +1,10 @@
+{
+  "db": {
+    "connector": "memory",
+    "defaultForType": "db"
+  },
+  "mail": {
+      "connector": "mail",
+      "defaultForType": "mail"
+  }
+}

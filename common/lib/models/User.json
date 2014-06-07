@@ -1,0 +1,30 @@
+{
+    "dataSource": "db",
+    "options": {
+        "base": "User",
+        "relations": {
+            "accessTokens": {
+                "foreignKey": "userId",
+                "model": "AccessToken",
+                "type": "hasMany"
+            },
+            "credentials": {
+                "foreignKey": "userId",
+                "model": "UserCredential",
+                "type": "hasMany"
+            },
+            "identities": {
+                "foreignKey": "userId",
+                "model": "UserIdentity",
+                "type": "hasMany"
+            }
+        }
+    },
+    "properties": {
+        "done": {
+            "default": false,
+            "type": "boolean"
+        },
+        "title": "string"
+    }
+}

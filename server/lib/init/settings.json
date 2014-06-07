@@ -1,0 +1,4 @@
+{
+  "cookieSecret": "cookie secret",
+  "sessionSecret": "session secret"
+}

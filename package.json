@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "~0.7.0",
+    "compression": "^1.0.3",
+    "ejs": "^1.0.0",
+    "loopback": "git+http://github.com/strongloop/loopback#2.0",
+    "loopback-boot": "strongloop/loopback-boot",
+    "loopback-datasource-juggler": "git+http://github.com/strongloop/loopback-datasource-juggler.git#2.0",
+    "morgan": "^1.1.1",
+    "cookie-parser": "^1.1.0",
+    "method-override": "^2.0.2",
+    "express-session": "^1.2.1",
+    "errorhandler": "^1.0.2",
+    "connect-ensure-login": "^0.1.1"
+  },
+  "devDependencies": {
+    "async": "~0.7.0",
+    "browserify": "~4.1.2",
+    "gulp": "~3.6.0",
+    "gulp-nodemon": "~1.0.2",
+    "shelljs": "~0.2.6",
+    "uglifyify": "~2.1.1"
+  }
+}
