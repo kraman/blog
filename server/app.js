@@ -29,7 +29,7 @@ require('./lib/loadModels.js')(loopback, app);
 app.use(loopback.bodyParser());
 app.use(loopback.logger('dev'));
 
-app.use(loopback.static(path.join(__dirname, '../web')));
+app.use(loopback.static(path.join(__dirname, '../web/dist')));
 fs
     .readdirSync(path.join(__dirname, './lib/middleware'))
     .filter(function(m) {
